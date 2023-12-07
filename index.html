@@ -11,20 +11,21 @@
 
 <body>
   <header class="absolute w-full bg-transparent top-0 hidden lg:block">
-    <nav class="flex container mx-auto items-center w-full">
-      <img src="./img/icons8-utensils-50.png" alt="icons8-utensils-50" class="w-10">
-      <a href="" class="text-yellow-500 text-4xl font-bold">&nbsp; Resturant</a>
-      <div class="grow ">
-        <div class="flex justify-end">
-
-          <a class="py-6 pr-7 text-yellow-500 font-semibold" href="">HOME</a>
-          <a class="py-6 pr-7 text-white font-semibold" href="">ABOUT</a>
-          <a class="py-6 pr-7 text-white font-semibold" href="">SERVICE</a>
-          <a class="py-6 pr-7 text-white font-semibold" href="">MENU</a>
-          <a class="py-6 pr-7 text-white font-semibold" href="">PAGES</a>
-          <a class="py-6 pr-7 text-white font-semibold" href="">CONTACT</a>
-        </div>
+    <nav class="flex container mx-auto w-full pt-5">
+      <div class="logocontainer flex items-center">
+        <img src="./img/icons8-utensils-50.png" alt="icons8-utensils-50" class="w-10" width="592" height="592">
+        <a href="" class="text-yellow-500 text-4xl font-bold">&nbsp; Resturant</a>
       </div>
+      <div class="navbar grow flex justify-end items-center">
+        <div class="space-x-6">
+          <a class=" text-yellow-500 font-semibold" href="">HOME</a>
+          <a class=" text-white font-semibold" href="">ABOUT</a>
+          <a class=" text-white font-semibold" href="">SERVICE</a>
+          <a class=" text-white font-semibold" href="">MENU</a>    
+          <a class=" text-white font-semibold" href="">CONTACT</a>        
+        </div>
+        <a class="px-4 py-3 ms-6 bg-yellow-500 hover:bg-yellow-400  text-white rounded-sm">BOOK A TABLE</a>
+      </div>      
     </nav>
   </header>
   <div class="w-full bannerGradient bg-no-repeat bg-cover bg-center">
@@ -87,7 +88,7 @@
       <section class="px-3 py-5 w-full flex flex-col lg:flex-row lg:items-center">
         <div class="px-3 mt-10 w-full lg:w-1/2">
           <div class="flex w-full flex-wrap">
-            <div class="w-1/2 px-2 mt-3"><img class="w-full" src="./img/about-1.jpg" alt=""></div>
+            <div class="w-1/2 px-2 mt-3"><img class="w-full" src="./img/about-1.jpg" alt="" width="286" height="286"></div>
             <div class="w-1/2 px-2 mt-3"><img class="w-3/4 mt-[25%]" src="./img/about-2.jpg" alt=""></div>
             <div class="w-1/2 px-2 mt-3 "><img class="w-3/4 ml-[25%]" src="./img/about-3.jpg" alt=""></div>
             <div class="w-1/2 px-2 mt-3"><img class="w-full" src="./img/about-4.jpg" alt=""></div>
@@ -367,7 +368,7 @@
     
     </div>
   </div>
-  <div class="bg-[#0F172B] w-full ">
+  <footer class="bg-[#0F172B] w-full ">
     <div class="container mx-auto py-5 w-full border-b border-gray-200">
       <div class="row w-full px-5 flex flex-col md:flex-row ">
         <div class="col px-3 mt-10 w-full md:w-1/3">
@@ -403,7 +404,7 @@
         </div>        
       </div>
     </div>
-  </div>
+  </footer>
 </body>
 
 </html>
